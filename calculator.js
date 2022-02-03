@@ -1,6 +1,6 @@
 let runningTotal = 0;
 let buffer = "0";
-let previousOperator = null;
+let previousOperator = null; //Stores the value of + - / *
 const displayArea = document.querySelector('.display-area')
 
 document.querySelector('.calc-buttons').addEventListener("click", function (event) {
